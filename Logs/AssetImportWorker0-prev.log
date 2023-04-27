@@ -1,0 +1,820 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Enterprise' Language: 'en' Physical Memory: 16072 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/cpape125/Documents/UnityProject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52914
+Successfully changed project path to: C:/Users/cpape125/Documents/UnityProject
+C:/Users/cpape125/Documents/UnityProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18008] Host "[IP] 192.168.208.206 [Port] 0 [Flags] 2 [Guid] 2211510130 [EditorId] 2211510130 [Version] 1048832 [Id] WindowsEditor(7,MININT-6V4HN2D) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [18008] Host "[IP] 192.168.208.206 [Port] 0 [Flags] 2 [Guid] 2211510130 [EditorId] 2211510130 [Version] 1048832 [Id] WindowsEditor(7,MININT-6V4HN2D) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 63.37 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/cpape125/Documents/UnityProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 770 (ID=0x4690)
+    Vendor:   Intel
+    VRAM:     8036 MB
+    Driver:   30.0.101.1218
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002973 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 71.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.459 seconds
+Domain Reload Profiling:
+	ReloadAssembly (459ms)
+		BeginReloadAssembly (55ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (329ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (72ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (200ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (71ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004911 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\cpape125\Documents\UnityProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\cpape125\Documents\UnityProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 62.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.737 seconds
+Domain Reload Profiling:
+	ReloadAssembly (738ms)
+		BeginReloadAssembly (78ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (589ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (166ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (302ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (63ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (151ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3755 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (56.1 KB). Loaded Objects now: 4214.
+Memory consumption went from 145.6 MB to 145.6 MB.
+Total: 2.422200 ms (FindLiveObjects: 0.178500 ms CreateObjectMapping: 0.098900 ms MarkObjects: 2.078400 ms  DeleteObjects: 0.065500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 95993.713759 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc93daea2d4f58851b095764dfbb13f') in 0.029104 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003579 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\cpape125\Documents\UnityProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\cpape125\Documents\UnityProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.988 seconds
+Domain Reload Profiling:
+	ReloadAssembly (989ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (808ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (247ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (344ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.33 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3731 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (24.6 KB). Loaded Objects now: 4218.
+Memory consumption went from 143.1 MB to 143.1 MB.
+Total: 3.878200 ms (FindLiveObjects: 0.331900 ms CreateObjectMapping: 0.217700 ms MarkObjects: 3.289800 ms  DeleteObjects: 0.037700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 73.504755 seconds.
+  path: Assets/2D Fantasy Character Pack/Prefabs/knight/knight.prefab
+  artifactKey: Guid(588d570a52e35c5458973a7d067a2875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Prefabs/knight/knight.prefab using Guid(588d570a52e35c5458973a7d067a2875) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'knight': Transition 'AnyState -> New State' in state 'AnyState' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Editor\Src\Animation\StateMachine.cpp line 1838]
+
+ -> (artifact id: '77e235ad7a38224b9170157b5d60495c') in 0.112712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.375259 seconds.
+  path: Assets/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Golden.prefab
+  artifactKey: Guid(cea950ff3b9b0804f967eaec919f19f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Golden.prefab using Guid(cea950ff3b9b0804f967eaec919f19f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b601a51739fcb0e44c9605cd55b32f') in 0.025650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Silver.prefab
+  artifactKey: Guid(7f2681b23c23afc4fbb43c6dca9f41f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Silver.prefab using Guid(7f2681b23c23afc4fbb43c6dca9f41f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ecb7a12f46bf0d50c18ab9bb0361c1') in 0.019204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Wooden.prefab
+  artifactKey: Guid(f98d0f39fcc67a34f844abd8a50f2c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Wooden.prefab using Guid(f98d0f39fcc67a34f844abd8a50f2c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0222cd0c302c3f7a148bc5003545f96f') in 0.016816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.348216 seconds.
+  path: Assets/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Golden.prefab
+  artifactKey: Guid(cea950ff3b9b0804f967eaec919f19f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Golden.prefab using Guid(cea950ff3b9b0804f967eaec919f19f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b92e05e408006c3b87560bad1683e3') in 0.013733 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004046 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\cpape125\Documents\UnityProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\cpape125\Documents\UnityProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.870 seconds
+Domain Reload Profiling:
+	ReloadAssembly (871ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (712ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (186ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (342ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (211ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3731 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.7 KB). Loaded Objects now: 4228.
+Memory consumption went from 147.8 MB to 147.8 MB.
+Total: 4.654000 ms (FindLiveObjects: 0.271700 ms CreateObjectMapping: 0.274400 ms MarkObjects: 4.051100 ms  DeleteObjects: 0.054900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 27.856016 seconds.
+  path: Assets/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Golden.prefab
+  artifactKey: Guid(cea950ff3b9b0804f967eaec919f19f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Golden.prefab using Guid(cea950ff3b9b0804f967eaec919f19f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '028a7d3df8ef4dc9d62aa02d6e843cc1') in 0.093816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.585577 seconds.
+  path: Assets/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Golden.prefab
+  artifactKey: Guid(cea950ff3b9b0804f967eaec919f19f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Golden.prefab using Guid(cea950ff3b9b0804f967eaec919f19f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc00e456101158f7bdb8aadf7fef694') in 0.039313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.480382 seconds.
+  path: Assets/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Golden.prefab
+  artifactKey: Guid(cea950ff3b9b0804f967eaec919f19f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Golden.prefab using Guid(cea950ff3b9b0804f967eaec919f19f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9cdc49f536a07bca3175bf1dab88cb7') in 0.038017 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003122 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\cpape125\Documents\UnityProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\cpape125\Documents\UnityProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.904 seconds
+Domain Reload Profiling:
+	ReloadAssembly (905ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (738ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (208ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (347ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (223ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.08 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3731 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.7 KB). Loaded Objects now: 4231.
+Memory consumption went from 147.8 MB to 147.8 MB.
+Total: 3.559900 ms (FindLiveObjects: 0.338600 ms CreateObjectMapping: 0.174100 ms MarkObjects: 2.999100 ms  DeleteObjects: 0.045800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005267 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\cpape125\Documents\UnityProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\cpape125\Documents\UnityProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.903 seconds
+Domain Reload Profiling:
+	ReloadAssembly (904ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (730ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (208ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (341ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (211ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.47 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3731 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.7 KB). Loaded Objects now: 4234.
+Memory consumption went from 147.8 MB to 147.8 MB.
+Total: 4.084100 ms (FindLiveObjects: 0.310800 ms CreateObjectMapping: 0.242600 ms MarkObjects: 3.427500 ms  DeleteObjects: 0.102100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 171.888326 seconds.
+  path: Assets/Yoge/ParallaxBackground 1/Images/0.png
+  artifactKey: Guid(4a680a152a952ce43acd2332def0f705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoge/ParallaxBackground 1/Images/0.png using Guid(4a680a152a952ce43acd2332def0f705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa29cd9e147d5c9d23456e33e5050763') in 0.607851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/mage_black/2_hands_shooting1_3.png
+  artifactKey: Guid(5700935c85d578344ae2a77f9adc4da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/mage_black/2_hands_shooting1_3.png using Guid(5700935c85d578344ae2a77f9adc4da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc015437032e41228cbb86490813cb5') in 0.023928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/mage_black/2_hands_shooting1_2.png
+  artifactKey: Guid(ec82e9b5b712f7e45bb11d7f19b37c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/mage_black/2_hands_shooting1_2.png using Guid(ec82e9b5b712f7e45bb11d7f19b37c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf7643bf6df21acef666fc2c752b069') in 0.023615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/mage_black/2_hands_shooting1_4.png
+  artifactKey: Guid(3cc1930c995877a4da56b6f17c2e2d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/mage_black/2_hands_shooting1_4.png using Guid(3cc1930c995877a4da56b6f17c2e2d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b92a402874491f7d710c3bc9272973b') in 0.023722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.557825 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/mage_black/2_hands_shooting1_7.png
+  artifactKey: Guid(24ae5f579457f144e818df10cd332772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/mage_black/2_hands_shooting1_7.png using Guid(24ae5f579457f144e818df10cd332772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447fcd694f5a95e0b77ee7c2089b703e') in 0.016432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.465122 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/mage_black/2_hands_shooting2_21.png
+  artifactKey: Guid(c7259c7a524347f418e8b5d0e53ba860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/mage_black/2_hands_shooting2_21.png using Guid(c7259c7a524347f418e8b5d0e53ba860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905861f966f1da910f6cffe67d3c8269') in 0.019377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/knight/atack3_8.png
+  artifactKey: Guid(f557dfe6fb4401b499bd986820dcc986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/knight/atack3_8.png using Guid(f557dfe6fb4401b499bd986820dcc986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f927fe01e9a450256f1b04fe54bb3266') in 0.016840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/knight/Attack4_1.png
+  artifactKey: Guid(f350125c14a573c4eb13a0da9aecf93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/knight/Attack4_1.png using Guid(f350125c14a573c4eb13a0da9aecf93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33118f10b7dd9a3b13b2f8ead59e490') in 0.020989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/mage_black/casting1_14.png
+  artifactKey: Guid(0d340241de7fbd740a242f70d657cae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/mage_black/casting1_14.png using Guid(0d340241de7fbd740a242f70d657cae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5932c9a4e9d0a7d4c7399532e3e022b2') in 0.021728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/archer2/charging11.png
+  artifactKey: Guid(065e108accc1b714e8353db93e7917de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/archer2/charging11.png using Guid(065e108accc1b714e8353db93e7917de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6414899b54b1138a752dd862c1c2672') in 0.033336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/knight/Attack4_2.png
+  artifactKey: Guid(d299b1daa0c521d4aa0a9b61034d83c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/knight/Attack4_2.png using Guid(d299b1daa0c521d4aa0a9b61034d83c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7132c9ff37564f8a8423736e6cfd804') in 0.019937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/knight/Attack4_3.png
+  artifactKey: Guid(11659cbe7ccd9a04a9801d384a5a7e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/knight/Attack4_3.png using Guid(11659cbe7ccd9a04a9801d384a5a7e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920a66c46768658ba08b6fde034407c4') in 0.026380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Yoge/ParallaxBackground 1/Images/5.png
+  artifactKey: Guid(75d903a89407f2840bf419562f7f9cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoge/ParallaxBackground 1/Images/5.png using Guid(75d903a89407f2840bf419562f7f9cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9d2b675c7a9f30744cdbdb3df635428') in 0.548148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/knight/idle3.png
+  artifactKey: Guid(ef497b31bca6544499b30db030c4e4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/knight/idle3.png using Guid(ef497b31bca6544499b30db030c4e4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ce621b1897db52730b8b41a602b1142') in 0.019142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/zombie/grow17.png
+  artifactKey: Guid(8534e0f7d9e1eb449a8f529cb75cf6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/zombie/grow17.png using Guid(8534e0f7d9e1eb449a8f529cb75cf6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ec47292b2ae2e82cb79e2465dc2c83') in 0.037705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sprites/Warped Shooting Fx/Pixel Art/Hits/Hit-2/hits-2-2.png
+  artifactKey: Guid(d5e3988cacb5346db8efe0d6f8745731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Warped Shooting Fx/Pixel Art/Hits/Hit-2/hits-2-2.png using Guid(d5e3988cacb5346db8efe0d6f8745731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666a69ffb73aa3a59c21e1d461404d99') in 0.020904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/knight/Attack1_1.png
+  artifactKey: Guid(cee48811273fd624b875c8e8e5273853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/knight/Attack1_1.png using Guid(cee48811273fd624b875c8e8e5273853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1884525eec662923038662b8e70fad') in 0.020058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/mage_black/casting1_17.png
+  artifactKey: Guid(64824094d531fe84c944e099bbff0662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/mage_black/casting1_17.png using Guid(64824094d531fe84c944e099bbff0662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '896030510ee28958aa8134e0cac61234') in 0.015693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/zombie/attack_2_31.png
+  artifactKey: Guid(d1c7daa37e992b940bc85524d8c3291a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/zombie/attack_2_31.png using Guid(d1c7daa37e992b940bc85524d8c3291a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf371b4843e402352bd1338c85b7817') in 0.017826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/archer2/dying8.png
+  artifactKey: Guid(d43a1fcd0eb1d63429755c1d6efeb8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/archer2/dying8.png using Guid(d43a1fcd0eb1d63429755c1d6efeb8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776b93b65ffa140a81f9352813b7defa') in 0.017404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/zombie/grow15.png
+  artifactKey: Guid(1a18eea38f7723746957aa8e7ecbd16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/zombie/grow15.png using Guid(1a18eea38f7723746957aa8e7ecbd16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34369004c253016487217700b83f9f5b') in 0.014633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Yoge/ParallaxBackground 1/Images/6.png
+  artifactKey: Guid(d207c299e6cc34641969bc223ede8109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoge/ParallaxBackground 1/Images/6.png using Guid(d207c299e6cc34641969bc223ede8109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73daae723bc1f725fa3064f75e895723') in 0.487094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/mage_black/jump7.png
+  artifactKey: Guid(20062d19e8368ec4cb6b7609b2d41a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/mage_black/jump7.png using Guid(20062d19e8368ec4cb6b7609b2d41a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada9150ce40663cc77164e7b15aac171') in 0.021766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/mage_black/jump8.png
+  artifactKey: Guid(730abbd648b4f014585809acded8793c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/mage_black/jump8.png using Guid(730abbd648b4f014585809acded8793c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b15385bec0275f78f0901e45a8dfcd') in 0.016023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/mage_black/idle10.png
+  artifactKey: Guid(58e493ffcae506546aefa6f31f85811f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/mage_black/idle10.png using Guid(58e493ffcae506546aefa6f31f85811f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33359565de1c35fd419821698d1db2d2') in 0.016537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/zombie/long_byte29.png
+  artifactKey: Guid(f5dde0899712f5b439f5e438fd415073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/zombie/long_byte29.png using Guid(f5dde0899712f5b439f5e438fd415073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c049f474c9384ac35beb1e122ee6da') in 0.015601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/archer2/run5.png
+  artifactKey: Guid(4bf7fcd368efc0943b3f2b0721874223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/archer2/run5.png using Guid(4bf7fcd368efc0943b3f2b0721874223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f038ffa2086fe3bcd5ec40000cf54e') in 0.018127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/zombie/long_byte25.png
+  artifactKey: Guid(442910e1f02b6894eabb1eefb8c170fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/zombie/long_byte25.png using Guid(442910e1f02b6894eabb1eefb8c170fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2401cb2a22b09cc4fd1f2f1d537c8642') in 0.023617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/knight/take_hit2_4.png
+  artifactKey: Guid(046b0ea8d3c19844fba143ef988fe5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/knight/take_hit2_4.png using Guid(046b0ea8d3c19844fba143ef988fe5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707c15d5f25053d74dff765745db523b') in 0.013097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/zombie/kick5.png
+  artifactKey: Guid(5bd06feb5283dd642b413b1b109e7136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/zombie/kick5.png using Guid(5bd06feb5283dd642b413b1b109e7136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0610c8e30d3765f06f35dd924338ef') in 0.017565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/archer2/shoot22.png
+  artifactKey: Guid(5b80bfda8b7f62c41adefbe5c0cb82f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/archer2/shoot22.png using Guid(5b80bfda8b7f62c41adefbe5c0cb82f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1d3f5f1e365a15071fabd069692115') in 0.017322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/zombie/walk19.png
+  artifactKey: Guid(5e8282979a53046488faa16447b530bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/zombie/walk19.png using Guid(5e8282979a53046488faa16447b530bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35c0718e05c273dd1d6393222df4bfb') in 0.017444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/knight/shield2.png
+  artifactKey: Guid(aeaa92109a7f71244891bb3958c4a3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/knight/shield2.png using Guid(aeaa92109a7f71244891bb3958c4a3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae574695286226ea9bb1ea228fa24ee') in 0.014524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/mage_black/continous_shooting2_10.png
+  artifactKey: Guid(e131b2171f407084599ce96b8d16bb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/mage_black/continous_shooting2_10.png using Guid(e131b2171f407084599ce96b8d16bb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa11c97fe76706c40e0b0354cf1613b5') in 0.016303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/zombie/kick4.png
+  artifactKey: Guid(d9dabfe586a633e4dbcdd5c235a2bca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/zombie/kick4.png using Guid(d9dabfe586a633e4dbcdd5c235a2bca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd2edb5f71302157e5be8f87199e171') in 0.018898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/Warped Shooting Fx/Pixel Art/Hits/Hit-6/hits-6-preview3.png
+  artifactKey: Guid(dbb41e28ef2f94891aed9f7310c90eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Warped Shooting Fx/Pixel Art/Hits/Hit-6/hits-6-preview3.png using Guid(dbb41e28ef2f94891aed9f7310c90eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3fdb464ee67c9e42b7c7a0c1d7c7663') in 0.015848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.059203 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/archer2/walking_charging6.png
+  artifactKey: Guid(d4d8260e922c43f439c1a502825f1ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/archer2/walking_charging6.png using Guid(d4d8260e922c43f439c1a502825f1ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd73338b756df75702e362f67c00590') in 0.018097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/archer2/walking_charging8.png
+  artifactKey: Guid(4e2e50dea71a5334e8922af0c820b041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/archer2/walking_charging8.png using Guid(4e2e50dea71a5334e8922af0c820b041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978fbbedb0211b7410580e73e5f75274') in 0.016193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/mage_black/Walk2_6.png
+  artifactKey: Guid(6bdb9819ee1e2fd469788493dce501a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/mage_black/Walk2_6.png using Guid(6bdb9819ee1e2fd469788493dce501a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8897f2413fe85beef3b0678350b5ce') in 0.018052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/mage_black/Walk2_5.png
+  artifactKey: Guid(37edecb32214a804593b9e8912dec0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/mage_black/Walk2_5.png using Guid(37edecb32214a804593b9e8912dec0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3f12ca1f396dd9c74f3e99be7ee32f') in 0.016248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/knight/walk8.png
+  artifactKey: Guid(279cc98a6e1cbb24dacd5835c6a5704a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/knight/walk8.png using Guid(279cc98a6e1cbb24dacd5835c6a5704a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4577d84c9fd012a34b27f13fed6f301c') in 0.017405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.244062 seconds.
+  path: Assets/Sprites/Warped Shooting Fx/Pixel Art/Waveform/waveform2.png
+  artifactKey: Guid(e240c40da139d4e54aee2efe4960bec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Warped Shooting Fx/Pixel Art/Waveform/waveform2.png using Guid(e240c40da139d4e54aee2efe4960bec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d7064b2c5bea692437c1c88aefcf8a') in 0.013905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.220717 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/archer2/walking_charging1.png
+  artifactKey: Guid(f3c4c33f6b143904d81018570b97b07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/archer2/walking_charging1.png using Guid(f3c4c33f6b143904d81018570b97b07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6105aaeabb5c6f4a312d7638f3038675') in 0.016858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.229455 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/zombie/walk26.png
+  artifactKey: Guid(46ef6bb0f9b70cd469a41c101b43decb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/zombie/walk26.png using Guid(46ef6bb0f9b70cd469a41c101b43decb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd1d9417cfaa43d92a3954e90f92fe1') in 0.017933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/zombie/walk30.png
+  artifactKey: Guid(97591cb3181ab0b49a53cd58b1117a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/zombie/walk30.png using Guid(97591cb3181ab0b49a53cd58b1117a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09621cd1f730c78f8aed0aa0d18655d') in 0.017926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.078816 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/zombie/walk22.png
+  artifactKey: Guid(5fbcd31a4f97f834d92a7f75a64e91a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/zombie/walk22.png using Guid(5fbcd31a4f97f834d92a7f75a64e91a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26e25e2d7ca66383395fc13805ca16c') in 0.016104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.178997 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/zombie/walk14.png
+  artifactKey: Guid(413581cdf6c2e7942a81c1dd93095ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/zombie/walk14.png using Guid(413581cdf6c2e7942a81c1dd93095ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e5d1c400a640a17fe416db08ebeb49') in 0.018975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.851960 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/zombie/walk7.png
+  artifactKey: Guid(75e587040939f054186cc1b4e4fbc8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/zombie/walk7.png using Guid(75e587040939f054186cc1b4e4fbc8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a92dfd78fd48005f5b388122530079c') in 0.018460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/zombie/walk11.png
+  artifactKey: Guid(73c216f4c6f43b64cb0ed4ae784ee0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/zombie/walk11.png using Guid(73c216f4c6f43b64cb0ed4ae784ee0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1bb45bed9d6bc5e13dd43e9e37c138') in 0.024529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/mage_black/walk7.png
+  artifactKey: Guid(c88a985080e7f7f4eaa6aac22af87db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/mage_black/walk7.png using Guid(c88a985080e7f7f4eaa6aac22af87db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f6ea1a2286ee44fde67574468b1b197') in 0.018627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.541341 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/mage_black/walk3.png
+  artifactKey: Guid(71ded4aa9516bc640b3390b79ea3f20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/mage_black/walk3.png using Guid(71ded4aa9516bc640b3390b79ea3f20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29145f191ebfb8dd627b41322696559e') in 0.019585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/zombie/walk4.png
+  artifactKey: Guid(2a277fe2c4e3b234898b62d78c128650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/zombie/walk4.png using Guid(2a277fe2c4e3b234898b62d78c128650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29f874111523ecde16a58b8f3c5cdb4') in 0.020704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/archer2/walk5.png
+  artifactKey: Guid(f3f6bc986c5ce6f49873147c24553be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/archer2/walk5.png using Guid(f3f6bc986c5ce6f49873147c24553be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa04eed79addf639240542b4651f1a3') in 0.017931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/archer2/walk3.png
+  artifactKey: Guid(bc5b52b00cee66645b3613624eb60380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/archer2/walk3.png using Guid(bc5b52b00cee66645b3613624eb60380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fede9b5985a85899a7ac3d17b1ef4a1') in 0.015495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/knight/walk5.png
+  artifactKey: Guid(45ca638baa99f4041ade0f2c99417a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/knight/walk5.png using Guid(45ca638baa99f4041ade0f2c99417a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e55b934e50bd9ea33eb6e47212909a') in 0.015434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/archer2/walk2.png
+  artifactKey: Guid(7b6b595509c4c4146a1639b2ebfd4ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/archer2/walk2.png using Guid(7b6b595509c4c4146a1639b2ebfd4ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1fc71fc0b36c8ed92f3486258f14cdd') in 0.015121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/knight/walk6.png
+  artifactKey: Guid(de6188903ba18c544b225cdf4d6bdf10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/knight/walk6.png using Guid(de6188903ba18c544b225cdf4d6bdf10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53fb75f60f93cec822434d15f66f1e3b') in 0.018093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/mage_black/walk4.png
+  artifactKey: Guid(280452b5bd237c24290669ba2a12c4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/mage_black/walk4.png using Guid(280452b5bd237c24290669ba2a12c4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00fc398a8ffc68b0bcf15142b1dda5c9') in 0.013914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.421272 seconds.
+  path: Assets/2D Fantasy Character Pack/Sprites/archer2/walk1.png
+  artifactKey: Guid(ef386eb85ab5ece4c83573934af0634b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Character Pack/Sprites/archer2/walk1.png using Guid(ef386eb85ab5ece4c83573934af0634b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcdeb127dff15084d95cfdfd0a7dc880') in 0.016303 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
