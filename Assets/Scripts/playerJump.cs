@@ -34,11 +34,6 @@ public class playerJump : MonoBehaviour
         myAnimator = GetComponent<Animator>();
         jumpTimeCounter = jumpTime;
     }
-    //myAnimator.SetBool("falling", true);
-    //myAnimator.SetBool("falling", false);
-
-    //myAnimator.SetTrigger("jump");
-    //myAnimator.ResetTrigger("jump");
 
 
     private void Update()
