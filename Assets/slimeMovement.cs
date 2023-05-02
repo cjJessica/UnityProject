@@ -31,14 +31,19 @@ public class slimeMovement : MonoBehaviour
         }
     }
 
-    private void OnColliderEnter2D(Collider2D collision)
+    void OnColliderEnter2D(Collider2D col)
     {
-        if(collision.gameObject.tag == "Objects")
+        Debug.Log("nON -Trigger");
+    }
+/*
+    void OnColliderEnter2D(Collider2D col)
+    {
+        if(col.gameObject.tag == "Coin")
         {
             print("collided");
             FlipSlime();
         }
-    }
+    }*/
 
     void FlipSlime()
     {

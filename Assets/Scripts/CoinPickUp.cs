@@ -16,6 +16,7 @@ public class CoinPickUp : MonoBehaviour
             coin ++;
             textCoins.text = "Score: " + coin.ToString();
             Destroy(other.gameObject);
+            
         }
     }
 }
