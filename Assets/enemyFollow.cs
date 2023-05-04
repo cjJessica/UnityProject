@@ -4,80 +4,81 @@ using UnityEngine;
 
 public class enemyFollow : MonoBehaviour
 {
-    Rigidbody2D enemyRB;
-
-    //public GameObject enemy;
+    [Header ("Enemy Variables")]
     public Vector2 enemyPos;
     public float slimeSpeed = 5f;
     public float currentEnemyPos;
-    public bool isFacingRight = true;
+    public bool flip = true;
     
+    [Header ("Player Variables")]
     public GameObject player;
     public Vector2 playerPos;
     
+    [Header ("Components")]
     public Animator animator;
+    Rigidbody2D enemyRB;
     
-    //bool isFacingRight = true;
 
-    // Start is called before the first frame update
+
     void Start()
     {
         enemyRB = GetComponent<Rigidbody2D>();
         
-
+        //gets the player's position even thought this script is not attached to the player object
         player = GameObject.FindWithTag("Player");
         player.GetComponent<Transform>();
 
-        currentEnemyPos = transform.position.x;
+
     }
+
 
     void Update()
     {
-        //currentEnemyPos = transform.position.x;
+        //////Lets the enemy flip left or right//////
 
-        if (transform.position.x > currentEnemyPos && isFacingRight)
+        Vector3 scale = transform.localScale;
+        
+        //The flipping condition is controled by whether the player's position is greater or less than the enemy's
+        if (player.transform.position.x > transform.position.x)
         {
-            //print("flip now");
-            currentEnemyPos = transform.position.x;
-            Flip();   
+            //with Abs: Absolute you can change the scale with multiply by -1 (or nothing) and using a teranary operation: of flip is true 
+            //then * by -1 else * by 1.
+            scale.x = Mathf.Abs(scale.x) * -1 * (flip ? -1 : 1);  
+        } else 
+        {
+            scale.x = Mathf.Abs(scale.x) * (flip ? -1 : 1);
         }
 
-        if (transform.position.x < currentEnemyPos && !isFacingRight)
-        {
-            currentEnemyPos = transform.position.x;
-            Flip();
-        }
+        transform.localScale = scale;
     }
 
-    // Update is called once per frame
+
     void FixedUpdate()
     {
+        ////If the player is near enemy, enemy wakes up and tracks player////
+
+        //Makes variables for the player and enemy's positions
         playerPos = player.transform.position;
         enemyPos = transform.position;
         
+        //controls the amount of distance the player has to be to wake the enemy
         if (playerPos.x + 9.9f >= enemyPos.x)
         {
-            //Vector3 pos = transform.position;
+            //Once awakened, the animation parameter will trigger and enemy will start to walk 
+            //the enemy will then follow the player at a slower speed
             enemyPos.x = Mathf.MoveTowards(enemyPos.x, playerPos.x, Time.deltaTime * slimeSpeed);
             transform.position = enemyPos;
-            animator.SetTrigger("wasAwakened");
+            animator.SetBool("wasAwakened", true);
 
-/*
-            if (transform.position.x < currentEnemyPos)
-            {
-                transform.localScale = new Vector2(transform.localScale.x * 1, transform.localScale.y);
-                currentEnemyPos = transform.position.x;
-            }*/
+
+        } else
+        {
+            animator.SetBool("wasAwakened", false);
         }
-        //transform.position = new Vector3(trackingTarget.position.x + )
+
+
     }
 
-    void Flip()
-    {
-        isFacingRight = !isFacingRight;
-        transform.localScale = new Vector2(transform.localScale.x * -1, transform.localScale.y);
-        //print(currentEnemyPos);
-        
-    }
+
 
 }

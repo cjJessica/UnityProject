@@ -9,7 +9,7 @@ public class playerMovement : MonoBehaviour
     public GameObject character;
     public float movementSpeed = .01f;  //Movement Speed of the Player
     public Vector2 movement;           //Movement Axis
-   // public float jumpAmount;           //jump amount
+
     public Animator animator;
 
     bool isFacingRight = true;
@@ -35,17 +35,6 @@ public class playerMovement : MonoBehaviour
         {
             Flip();
         }
-
-/*
-        //Player jumps when space bar is pressed
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            rb.AddForce(Vector2.up * jumpAmount, ForceMode2D.Impulse);
-            animator.SetBool("isJumping", true);
-        } */
-
-       
-
 
     }
 

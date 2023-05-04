@@ -7,8 +7,7 @@ using UnityEngine;
 
 public class playerJump : MonoBehaviour
 {
-    //force, apply force, 1x
-    //
+
     [Header ("Jump Details")]
     public float jumpForce;
     public float jumpTime;
@@ -96,6 +95,7 @@ public class playerJump : MonoBehaviour
         HandleLayers();
     }
 
+    //changes the animation layers from air to ground and vice versa
     private void HandleLayers()
     {
         if (!grounded)
