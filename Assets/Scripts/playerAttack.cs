@@ -12,7 +12,7 @@ public class playerAttack : MonoBehaviour
     //public float attackRange = 0.5f;
     public LayerMask enemies;
     public float radius;
-    public int attackDamage = 10;
+    //public int attackDamage = 10;
     
     void Start()
     {
@@ -39,21 +39,23 @@ public class playerAttack : MonoBehaviour
         animator.SetTrigger("Attack");
         animator.SetInteger("AttackNum", (randomNumber));
 
+    }
+        /*
         Collider2D[] enemy = Physics2D.OverlapCircleAll(attackPoint.transform.position, radius, enemies);
 
         foreach(Collider2D enemyGameObject in enemy)
         {
             enemyGameObject.GetComponent<slime_AttackAndHealth>().TakeDamage(attackDamage);
-        }
+        }*/
 
-    }
+    
 
-
+/*
     private void OnDrawGizmosSelected()
     {
         if(attackPoint == null)
             return;
 
         Gizmos.DrawWireSphere(attackPoint.transform.position, radius);
-    }
+    }*/
 }

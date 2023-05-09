@@ -6,7 +6,7 @@ public class enemyFollow : MonoBehaviour
 {
     [Header ("Enemy Variables")]
     public Vector2 enemyPos;
-    public float slimeSpeed = 5f;
+    public float slimeSpeed = 4f;
     public float currentEnemyPos;
     public bool flip = true;
     
