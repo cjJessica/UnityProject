@@ -62,7 +62,7 @@ public class enemyFollow : MonoBehaviour
         enemyPos = transform.position;
         
         //controls the amount of distance the player has to be to wake the enemy
-        if (playerPos.x + 9.9f >= enemyPos.x)
+        if (Mathf.Abs(playerPos.x - enemyPos.x) <= 9.9 && Mathf.Abs(playerPos.y - enemyPos.y) <= 5)
         {
             //Once awakened, the animation parameter will trigger and enemy will start to walk 
             //the enemy will then follow the player at a slower speed
@@ -75,6 +75,7 @@ public class enemyFollow : MonoBehaviour
         {
             animator.SetBool("wasAwakened", false);
         }
+
 
 
     }
