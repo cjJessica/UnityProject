@@ -9,6 +9,7 @@ public class slime_AttackAndHealth : MonoBehaviour
 
     public Vector2 playerPos;
     public Vector2 slimePos;
+    public Vector2 firstPos;
 
     public int MaxHealth = 100;
     int currentHealth;
@@ -26,6 +27,7 @@ public class slime_AttackAndHealth : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        firstPos = transform.position;
         currentHealth = MaxHealth;
         //slime = GameObject.Find("Slime1");
         player.GetComponent<Transform>();
@@ -36,7 +38,7 @@ public class slime_AttackAndHealth : MonoBehaviour
     {
         playerPos = player.transform.position;
         slimePos = transform.position;
-        Debug.Log(animator.GetBool("Attacking"));
+        //Debug.Log(animator.GetBool("Attacking"));
 
         if (Time.time >= nextAttackTime)
         {
@@ -64,6 +66,11 @@ public class slime_AttackAndHealth : MonoBehaviour
             {
                 Debug.Log("Slime attack!");
                 player.GetComponent<Player_Health>().HealthDamage(slimeDamage);
+
+                if (this.gameObject != null)
+                {
+                    transform.position = firstPos;
+                }
             }
 
         }
